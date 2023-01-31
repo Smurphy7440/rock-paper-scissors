@@ -1,0 +1,14 @@
+version: '3.7'
+
+services:
+
+  service_1:
+    container_name: rock_paper_scissors
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - '.:/app'
+      - '/app/node_modules'
+    ports:
+      - "3003:8080"

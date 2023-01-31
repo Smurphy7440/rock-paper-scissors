@@ -1,19 +1,12 @@
 # rock-paper-scissors
 
 ## Project setup
+
+You need docker and docker-compose cli to run this project, run the following in project's root:
 ```
-npm install
+docker-compose up --build
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Then navigate to http://localhost:3003:
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![rock-paper-scissors-image](./src/assets/rock-paper-scissors.png)
